@@ -1,0 +1,137 @@
+@charset "utf-8";
+
+body {
+    color: #332;
+    background-color: #fff;
+    position: relative;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.error {
+    color: red;
+}
+
+/* Fixed Menu Style*/
+.header {
+    padding: 60px;
+    text-align: center;
+    background: #1abc9c;
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    font-size: 30px;
+    overflow: auto;
+}
+
+table {
+    width: 90%;
+}
+
+th {
+    padding: 1px;
+    text-align: left;
+}
+
+td {
+    padding: 1px;
+    text-align: left;
+}
+
+ul {
+    text-align: left;
+    padding: 0px;
+}
+
+li {
+    padding: 0px;
+}
+
+/* Page Content */
+.content {
+    padding: 0px;
+}
+
+.heading {
+    font-size: 12px;
+    color: #2e2721;
+    font-weight: bold;
+}
+
+.title {
+    width: auto;
+    padding: 5px 5px 5px 5px;
+    font-family: Georgia, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: #2e2721;
+}
+
+.subtitle {
+    width: 600px;
+    font-family: Verdana, Geneva, sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    color: #806F66;
+    padding: 10px 0px 10px 0px;
+}
+
+.button {
+    background-color: #298df1;
+    color: white;
+    font-size: 1.2em;
+    padding: 10px 40px;
+    border-radius: 8px;
+    border: none;
+}
+
+#main_container {
+    width: auto;
+    height: auto;
+    margin: auto;
+    padding: 0px;
+}
+
+.center_content {
+    width: auto;
+    height: auto;
+    padding: 20px;
+    clear: both;
+    background-color: #E9E5E2;
+}
+
+
+.thin_box {
+    border: 1px solid white;
+    padding: 10px;
+    margin: 0px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+/*-------------------footer------------------------*/
+.resource_title {
+    width: 600px;
+    font-family: Verdana, Geneva, sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    color: #9099A2;
+    padding: 0px 0px 0px 0px;
+}
+
+.footer {
+    width: 790px;
+    height: auto;
+    font-family: Palatino, sans-serif;
+    color: rgb(255, 0, 0);
+    float: left;
+    padding: 10px 10px 10px 20px;
+}
+
+#footer a {
+    color: #3071B9;
+}
+
+#footer a:hover {
+    color: #3071B9;
+    font-weight: bold;
+}
